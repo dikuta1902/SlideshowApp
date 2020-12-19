@@ -14,9 +14,9 @@
 		870417EA25632226003F97EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870417E925632226003F97EA /* Assets.xcassets */; };
 		870417ED25632226003F97EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870417EB25632226003F97EA /* LaunchScreen.storyboard */; };
 		870417FB2569378C003F97EA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870417FA2569378C003F97EA /* ResultViewController.swift */; };
-		87B5E7B7257395F7005C830F /* neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7B4257395F6005C830F /* neko1.jpg */; };
-		87B5E7B8257395F7005C830F /* neko2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7B5257395F6005C830F /* neko2.jpeg */; };
-		87B5E7B9257395F7005C830F /* neko3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7B6257395F7005C830F /* neko3.jpg */; };
+		87B5E7DF258E0971005C830F /* neko2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7DC258E0971005C830F /* neko2.jpeg */; };
+		87B5E7E0258E0971005C830F /* neko3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7DD258E0971005C830F /* neko3.jpg */; };
+		87B5E7E1258E0971005C830F /* neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B5E7DE258E0971005C830F /* neko1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		870417EC25632226003F97EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		870417EE25632226003F97EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		870417FA2569378C003F97EA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		87B5E7B4257395F6005C830F /* neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko1.jpg; path = ../../../../neko1.jpg; sourceTree = "<group>"; };
-		87B5E7B5257395F6005C830F /* neko2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko2.jpeg; path = ../../../../neko2.jpeg; sourceTree = "<group>"; };
-		87B5E7B6257395F7005C830F /* neko3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = neko3.jpg; path = ../../../../neko3.jpg; sourceTree = "<group>"; };
+		87B5E7DC258E0971005C830F /* neko2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko2.jpeg; sourceTree = SOURCE_ROOT; };
+		87B5E7DD258E0971005C830F /* neko3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko3.jpg; sourceTree = SOURCE_ROOT; };
+		87B5E7DE258E0971005C830F /* neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko1.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +50,6 @@
 			children = (
 				870417DF25632224003F97EA /* SlideshowApp */,
 				870417DE25632224003F97EA /* Products */,
-				87B5E7B4257395F6005C830F /* neko1.jpg */,
-				87B5E7B5257395F6005C830F /* neko2.jpeg */,
-				87B5E7B6257395F7005C830F /* neko3.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +64,9 @@
 		870417DF25632224003F97EA /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				87B5E7DE258E0971005C830F /* neko1.jpg */,
+				87B5E7DC258E0971005C830F /* neko2.jpeg */,
+				87B5E7DD258E0971005C830F /* neko3.jpg */,
 				870417E025632224003F97EA /* AppDelegate.swift */,
 				870417E225632224003F97EA /* SceneDelegate.swift */,
 				870417E425632224003F97EA /* ViewController.swift */,
@@ -137,11 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B5E7B9257395F7005C830F /* neko3.jpg in Resources */,
-				87B5E7B8257395F7005C830F /* neko2.jpeg in Resources */,
+				87B5E7E1258E0971005C830F /* neko1.jpg in Resources */,
 				870417ED25632226003F97EA /* LaunchScreen.storyboard in Resources */,
+				87B5E7DF258E0971005C830F /* neko2.jpeg in Resources */,
 				870417EA25632226003F97EA /* Assets.xcassets in Resources */,
-				87B5E7B7257395F7005C830F /* neko1.jpg in Resources */,
+				87B5E7E0258E0971005C830F /* neko3.jpg in Resources */,
 				870417E825632224003F97EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

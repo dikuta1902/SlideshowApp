@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        slide.setImage(image2, for: .normal)
         MoveButton.setTitle("進む",for:.normal)
         ReturnButton.setTitle("戻る",for: .normal)
         Play_StopButton.setTitle("再生",for: .normal)
