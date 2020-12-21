@@ -75,7 +75,7 @@ class ViewController: UIViewController {
         if(x == 3){
          x = 5
         }else if(x > 3){
-         x += 1
+         x -= 1
         }
         self.view()
     }
@@ -91,6 +91,19 @@ class ViewController: UIViewController {
         }
         else if(result%3 == 0){
             slide.setImage(image2, for: .normal)
+        }
+    }
+    
+    @IBAction func SlideShow(_ sender: Any) {
+        
+        Play_StopButton.setTitle("再生", for: .normal)
+        count = 0
+        ReturnButton.isEnabled = true
+        MoveButton.isEnabled = true
+        
+        if (self.timer != nil) {
+        self.timer.invalidate()
+        self.timer=nil
         }
     }
     

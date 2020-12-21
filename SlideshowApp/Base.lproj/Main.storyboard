@@ -37,6 +37,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="SlideShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWh-Kp-jx9"/>
                                     <segue destination="mEt-V2-W9W" kind="show" id="tXG-dO-2sb"/>
                                 </connections>
                             </button>
